@@ -7,8 +7,8 @@ use Drupal\Core\Config\Entity\ConfigEntityBase;
  * Defines a configuration entity class.
  *
  * @ConfigEntityType(
- *   id = "droplet",
- *   label = @Translation("Droplet")
+ *   id = "demo",
+ *   label = @Translation("Demo")
  * )
  */
 class Demo extends ConfigEntityBase {
