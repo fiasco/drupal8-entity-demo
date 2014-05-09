@@ -4,7 +4,7 @@ namespace Drupal\demo\Entity;
 use Drupal\Core\Config\Entity\ConfigEntityBase;
 
 /**
- * Defines a Block configuration entity class.
+ * Defines a configuration entity class.
  *
  * @ConfigEntityType(
  *   id = "droplet",
