@@ -1,0 +1,6 @@
+name: Demo module
+type: module
+description: 'Demonstrates a simple config entity module.'
+package: Demo
+version: 1.x
+core: 8.x

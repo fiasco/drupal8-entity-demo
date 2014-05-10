@@ -1,0 +1,15 @@
+demo.add:
+  path: '/admin/demo/add'
+  defaults:
+    _entity_form: 'demo.add'
+    _title: 'Add Demo Entity'
+  requirements:
+    _permission: 'use demo'
+
+demo.edit:
+  path: '/admin/demo/{demo}/edit'
+  defaults:
+    _entity_form: 'demo.edit'
+    _title: 'Edit Demo Entity'
+  requirements:
+    _permission: 'use demo'

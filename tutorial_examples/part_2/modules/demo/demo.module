@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Implements hook_permission().
+ */
+function demo_permission() {
+    return array(
+        'use demo' => array(
+            'title' => t('Use Demo'),
+        ),
+    );
+}
+
+/**
+ * Load a demo config entity.
+ */
+function demo_load($id) {
+  return entity_load('demo', $id);
+}
